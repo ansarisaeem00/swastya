@@ -1,0 +1,104 @@
+JFDML JFormDesigner: "6.0.6.2.195" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l::1013:x}"
+			"$verticalGroup": "par l {comp panel1::t:::x}"
+		} ) {
+			name: "this"
+			"background": sfield java.awt.Color white
+			"title": "Swasthya"
+			"font": new java.awt.Font( "Dialog", 0, 20 )
+			"iconImage": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\pathology\\img\\hl.png" )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:132:p, par l {seq t {comp label3:::::x, space :p:108:p}, seq t {space :0:0:x, comp label1:::p:508:p, space :p:251:p}, seq {par l {seq {space :p:499:p, comp label6:::p:149:p}, seq l {par t:::p {comp label9::::139:x, comp label7::::139:x}, space :::p, par l {comp label8:::p:440:p, comp label2::l:p:261:p}}, seq l {comp label11:::p:222:p, space :::p, comp textField1:::p:340:p}, seq {space :p:196:p, comp label12:::p:423:p}, seq l {comp label13:::p:98:p, space :::p, comp label14:::p:259:p}, seq l {space :p:325:p, comp label10:::p::p}}, space :::x, par l:::p {comp label4:::::x, comp label5::::145:x}}}}}"
+				"$verticalGroup": "par l {seq l {space :p:12:p, comp label1:::p:83:p, space :p::p, comp label3:::p:420:p, par l {seq {space :p:34:p, comp label12:::p::p, space s:p::p, par l {comp label7:::p::p, comp label8::::52:x}, space s:p::p, par l {comp label9::::106:x, seq {space :0:0:x, comp label2:::p:49:p}}, space :p:9:p, comp label6:::p::p, space u:p::p, par l {comp label11:::p::p, comp textField1::l:p:47:p}}, seq t {space ::186:x, comp label5:::p:169:p, space :p:2:p}}, space ::8:x, par l {seq {par l:::p {comp label13:::::x, comp label14:::::x}, space :p:37:p, comp label10:::p::p}, comp label4:::p::p}, space :p:113:p}}"
+			} ) {
+				name: "panel1"
+				"background": sfield java.awt.Color white
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\pathology\\img\\logo.png" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\Admin\\img\\header.gif" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "Name"
+					"font": new java.awt.Font( "Calibri", 0, 40 )
+					"foreground": new java.awt.Color( 85, 85, 85, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"font": new java.awt.Font( "Calibri", 0, 40 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"text": "Contact"
+					"font": new java.awt.Font( "Calibri", 0, 40 )
+					"foreground": new java.awt.Color( 85, 85, 85, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label11"
+					"text": "Medical Test"
+					"font": new java.awt.Font( "Calibri", 0, 40 )
+					"foreground": new java.awt.Color( 85, 85, 85, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1"
+					"font": new java.awt.Font( "Calibri", 0, 40 )
+					"enabled": false
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label12"
+					"text": "Patients Information"
+					"font": new java.awt.Font( "Calibri", 0, 48 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "Date"
+					"font": new java.awt.Font( "Calibri", 0, 40 )
+					"foreground": new java.awt.Color( 85, 85, 85, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label14"
+					"font": new java.awt.Font( "Calibri", 0, 40 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"font": new java.awt.Font( "Calibri", 0, 40 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\pathology\\img\\upload.gif" )
+					"cursor": new java.awt.Cursor( 12 )
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color gray, 2, true )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label4MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"font": new java.awt.Font( "OCR-A BT", 0, 22 )
+					"foreground": sfield java.awt.Color blue
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color gray, 2, true )
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\pathology\\img\\l1.png" )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label5MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label10"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\pathology\\img\\submit.gif" )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label10MouseClicked", true ) )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1015, 1205 )
+		} )
+	}
+}

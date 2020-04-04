@@ -1,0 +1,158 @@
+JFDML JFormDesigner: "6.0.6.2.195" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x}"
+			"$verticalGroup": "par l {comp panel1::l:::x}"
+		} ) {
+			name: "this"
+			"title": "Swasthya"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\Admin\\img\\hl.png" )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {par l {seq {par l {seq {space :p:336:p, comp label2:::p:370:p, space :p:39:p, comp textField1:::p:0:p}, seq l {space :p:257:p, comp label1:::p::p}}, space :0:0:x}, seq l {space :::p, comp panel2:::::x}}, space :::p}}"
+				"$verticalGroup": "par l {seq t {comp label1:::p::p, space ::45:x, par l {comp textField1:::p::p, comp label2:::p:47:p}, space u:::p, comp panel2:::p::p, space :p:20:p}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 250, 250, 250, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\Doctor\\img\\logo.png" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Registration Form"
+					"font": new java.awt.Font( "Calibri", 0, 48 )
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :::p, par l {seq {comp label7:::p:211:p, space :p:520:p, comp button2:::p:238:p, space :::x}, seq l {par l {par t:::p {seq l {comp textField4:::p:258:p, space u:::p, comp label10:::p:449:p}, seq l {comp textField9:::p:126:p, space u:::p, comp textField2:::p:152:p, space u:::p, comp textField3:::p:168:p, space :::x, comp label9:::p:225:p}, comp label3::l:p:126:p, comp label4::l:p:355:p}, seq l {comp textField7:::p:221:p, space u:::p, comp label13:::p:319:p}}, space u:::p, par l {comp label14:::p:246:p, seq t {comp label15:::::x, space :p:43:p}}, space :p:21:p}, seq l {par l {comp label8:::p:211:p, seq l {comp textField5:::p:395:p, space :p:18:p, comp label17:::p:272:p}}, space :0:0:x}}}, seq t {space :::x, comp button1:::p:203:p, space :p:397:p}}"
+					"$verticalGroup": "par l {seq t {space :::p, par t {seq {comp label3:::p:40:p, space :p::p, par b {comp textField2::b:p:50:p, comp textField3::b:p:50:p, comp textField9::l:p:49:p, comp label9::l:p:50:p}, space s:::p, comp label4:::p:40:p, space :p::p, par l {comp label10::t:p:39:p, comp textField4::t:p:51:p}}, comp label14:::p:221:p}, space s:p::p, par l {seq {comp label7:::p:40:p, space :::p, par t {comp textField7:::p:50:p, comp label13:::p:39:p}, space s:::p, par t {seq {comp label8:::p:40:p, space :p:14:p, comp textField5:::p:50:p}, comp label17:::p:39:p}}, seq {comp button2:::p:54:p, space :p:56:p, comp label15:::p:44:p}}, space :p:57:p, comp button1:::p:80:p, space :p:227:p}}"
+				} ) {
+					name: "panel2"
+					"border": new javax.swing.border.MatteBorder( 1, 1, 1, 1, sfield java.awt.Color black )
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Calibri", 0, 40 )
+					"foreground": sfield java.awt.Color lightGray
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "NAME "
+						"font": &Font0 new java.awt.Font( "Calibri", 0, 35 )
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField2"
+						"font": &Font1 new java.awt.Font( "Calibri", 0, 40 )
+						"text": "Middle"
+						"foreground": sfield java.awt.Color lightGray
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField2FocusGained", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField3"
+						"font": #Font1
+						"text": "Last"
+						"foreground": sfield java.awt.Color lightGray
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField3FocusGained", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField4"
+						"font": #Font1
+						"text": "111122223333"
+						"foreground": sfield java.awt.Color lightGray
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField4FocusGained", true ) )
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField4FocusLost", true ) )
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField4FocusLost", true ) )
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField4FocusLost", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "AADHAR NUMBER"
+						"font": #Font0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "CONTACT"
+						"font": #Font0
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField7"
+						"font": #Font1
+						"cursor": new java.awt.Cursor( 2 )
+						"text": "1234512345"
+						"foreground": sfield java.awt.Color lightGray
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField7FocusGained", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label8"
+						"text": "EMAIL"
+						"font": #Font0
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"font": new java.awt.Font( "Calibri", 0, 48 )
+						"icon": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\Admin\\img\\Submit.gif" )
+						"border": new javax.swing.border.LineBorder( sfield java.awt.Color white, 1, false )
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "button1FocusGained", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "button1MouseReleased", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField9"
+						"font": new java.awt.Font( "Calibri", 0, 40 )
+						"text": "First"
+						"foreground": sfield java.awt.Color lightGray
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField9FocusGained", true ) )
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField9FocusLost", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label9"
+						"background": new java.awt.Color( 255, 0, 0, 255 )
+						"font": new java.awt.Font( "Calibri", 0, 24 )
+						"foreground": sfield java.awt.Color red
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label10"
+						"font": new java.awt.Font( "Calibri", 0, 24 )
+						"foreground": sfield java.awt.Color red
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label13"
+						"font": new java.awt.Font( "Calibri", 0, 24 )
+						"foreground": sfield java.awt.Color red
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label14"
+						"icon": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label15"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label17"
+						"foreground": sfield java.awt.Color red
+						"font": new java.awt.Font( "Calibri", 0, 24 )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button2"
+						"text": "Goto Lost Card"
+						"font": new java.awt.Font( "Calibri", 0, 34 )
+						"visible": false
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField5"
+						"foreground": sfield java.awt.Color lightGray
+						"text": "xyz@email.com"
+						"font": new java.awt.Font( "Calibri", 0, 40 )
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField5FocusGained", true ) )
+						addEvent( new FormEvent( "javax.swing.event.CaretListener", "caretUpdate", "textField5CaretUpdate", true ) )
+					} )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1020, 1105 )
+		} )
+	}
+}

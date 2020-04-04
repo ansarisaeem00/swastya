@@ -1,0 +1,63 @@
+JFDML JFormDesigner: "6.0.6.2.195" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l::1013:x}"
+			"$verticalGroup": "par l {seq l {comp panel1:::p::p, space :0:0:x}}"
+		} ) {
+			name: "this"
+			"background": sfield java.awt.Color white
+			"title": "Swasthya"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\Admin\\img\\hl.png" )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:137:p, comp label6:::p:269:p, space :::x, comp label5:::p:194:p, space :p:146:p}, seq t {space :::p, comp button1:::p:490:p, space :::x, comp button2:::p:490:p, space :::p}, seq t {space :p:110:p, par l {seq t {comp label1:::p:508:p, space :p:251:p}, seq t {comp label3:::::x, space :p:108:p}}}}"
+				"$verticalGroup": "par l {seq l {space :p:12:p, comp label1:::p:83:p, space :p::p, comp label3::::420:x, space :p:87:p, par b {comp label5::b:p:59:p, comp label6::b:p::p}, space :::p, par l {comp button1:::p::p, comp button2:::p::p}, space :p:200:p}}"
+			} ) {
+				name: "panel1"
+				"background": sfield java.awt.Color white
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "D:\\logo.png" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\Admin\\img\\header.gif" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Lost card"
+					"font": new java.awt.Font( "Calibri", 0, 48 )
+					"foreground": new java.awt.Color( 210, 0, 139, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\Admin\\img\\regs.gif" )
+					"autoscrolls": true
+					"background": new java.awt.Color( 192, 241, 250, 255 )
+					"cursor": new java.awt.Cursor( 12 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "button1MousePressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "button1KeyPressed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\Admin\\img\\33cIRY4.gif" )
+					"background": new java.awt.Color( 192, 241, 250, 255 )
+					"cursor": new java.awt.Cursor( 12 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "button2MousePressed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "Registration"
+					"font": new java.awt.Font( "Calibri", 0, 48 )
+					"foreground": new java.awt.Color( 210, 0, 139, 255 )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1015, 1205 )
+		} )
+	}
+}
