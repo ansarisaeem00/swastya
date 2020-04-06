@@ -1,5 +1,4 @@
-import arduino.Arduino;
-import java.awt.event.ActionEvent;
+
 import java.io.*;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -42,7 +41,7 @@ import com.oracle.jrockit.jfr.EventDefinition;
 class Admin {
     private static Admin ad=new Admin();
     private static regs re=new regs();
-    private static String k="re0yIzv9jIrxLdqLwD+ZoQN05Z72BD5pZn4tZBqV";            //aws.Pkey
+    private static String k="nqIX2oSu7JUAXRzm+L4Bq7cF/wL3hjs4/Zi2UNQt";            //aws.Pkey
     private static SecretKeySpec secretKey;
     private static byte[] key;
     private static String TE,F;

@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="Admin:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca84fb7-e552-4966-aec3-4131262eae4d" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="79a75085-a031-4e2c-a6bc-d9a1e38fe845" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Admin$Admin.ic" NAME="Admin Coverage Results" MODIFIED="1553272977219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Admin" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,41 +14,19 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="ProjectId" id="1XkRYO6LLGZYucrNbJM6NsSMGMV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="ProjectId" id="1QIEeocbyUilZeOBZ2Sj2RbFUFG" />
   <component name="PropertiesComponent">
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="208" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Doctor" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2575" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\1P\Admin\lib" />
-      <recent name="F:\1P\Admin\out\artifacts\Admin_jar\META-INF" />
-      <recent name="F:\1P\Admin\target\classes\META-INF" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="Application.Admin">
     <configuration name="Admin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -77,38 +43,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reaad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reaad" />
-      <module name="Admin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="read" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="read" />
-      <module name="Admin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Admin.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Admin_jar/Admin.jar" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Application.Admin" />
-      <item itemvalue="Application.email" />
-      <item itemvalue="Application.reaad" />
-      <item itemvalue="Application.read" />
-      <item itemvalue="JAR Application.Admin.jar" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Admin" />
-        <item itemvalue="JAR Application.Admin.jar" />
         <item itemvalue="Application.email" />
-        <item itemvalue="Application.read" />
-        <item itemvalue="Application.reaad" />
       </list>
     </recent_temporary>
   </component>
@@ -117,113 +55,50 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eca84fb7-e552-4966-aec3-4131262eae4d" name="Default Changelist" comment="" />
-      <created>1552236394044</created>
+      <changelist id="79a75085-a031-4e2c-a6bc-d9a1e38fe845" name="Default Changelist" comment="" />
+      <created>1581588153110</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552236394044</updated>
+      <updated>1581588153110</updated>
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/regs.java</url>
-          <line>327</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>Admin:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2575" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2575" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8.0_201</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Admin</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2575" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2575" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>mail-1.4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2575" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="466" y="86" key="DetectedRootsChooserDialog" timestamp="1581590635936">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="466" y="86" key="DetectedRootsChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1581590635936" />
+    <state x="499" y="130" key="FileChooserDialogImpl" timestamp="1584006322372">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="130" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584006322372" />
+    <state width="1481" height="305" key="GridCell.Tab.0.bottom" timestamp="1584008501989">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="305" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584008501989" />
+    <state width="1481" height="305" key="GridCell.Tab.0.center" timestamp="1584008501989">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="305" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584008501989" />
+    <state width="1481" height="305" key="GridCell.Tab.0.left" timestamp="1584008501989">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="305" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584008501989" />
+    <state width="1481" height="305" key="GridCell.Tab.0.right" timestamp="1584008501989">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="305" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584008501989" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1581661315516">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1581661315516" />
+    <state x="408" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1584003115837">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="408" y="215" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1584003115837" />
+    <state x="347" y="0" width="840" height="862" key="search.everywhere.popup" timestamp="1581588444984">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="347" y="0" width="840" height="862" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1581588444984" />
   </component>
 </project>

@@ -144,7 +144,7 @@ textField1.setText("");
 
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-        // Generated using JFormDesigner Evaluation license - ryue
+        // Generated using JFormDesigner Evaluation license - ajax
         panel1 = new JPanel();
         label1 = new JLabel();
         label3 = new JLabel();
@@ -165,21 +165,19 @@ textField1.setText("");
         //======== this ========
         setBackground(Color.white);
         setTitle("Swasthya");
-        setFont(new Font("Dialog", Font.PLAIN, 20));
+        setFont(new Font(Font.DIALOG, Font.PLAIN, 20));
         setIconImage(new ImageIcon("F:\\1P\\pathology\\img\\hl.png").getImage());
         Container contentPane = getContentPane();
 
         //======== panel1 ========
         {
             panel1.setBackground(Color.white);
-
-            // JFormDesigner evaluation mark
-            panel1.setBorder(new javax.swing.border.CompoundBorder(
-                new javax.swing.border.TitledBorder(new javax.swing.border.EmptyBorder(0, 0, 0, 0),
-                    "JFormDesigner Evaluation", javax.swing.border.TitledBorder.CENTER,
-                    javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Dialog", java.awt.Font.BOLD, 12),
-                    java.awt.Color.red), panel1.getBorder())); panel1.addPropertyChangeListener(new java.beans.PropertyChangeListener(){public void propertyChange(java.beans.PropertyChangeEvent e){if("border".equals(e.getPropertyName()))throw new RuntimeException();}});
-
+            panel1.setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new javax. swing. border.
+            EmptyBorder( 0, 0, 0, 0) , "JF\u006frmDesi\u0067ner Ev\u0061luatio\u006e", javax. swing. border. TitledBorder. CENTER, javax. swing
+            . border. TitledBorder. BOTTOM, new java .awt .Font ("Dialo\u0067" ,java .awt .Font .BOLD ,12 ),
+            java. awt. Color. red) ,panel1. getBorder( )) ); panel1. addPropertyChangeListener (new java. beans. PropertyChangeListener( )
+            { @Override public void propertyChange (java .beans .PropertyChangeEvent e) {if ("borde\u0072" .equals (e .getPropertyName () ))
+            throw new RuntimeException( ); }} );
 
             //---- label1 ----
             label1.setIcon(new ImageIcon("F:\\1P\\pathology\\img\\logo.png"));
@@ -316,10 +314,10 @@ textField1.setText("");
                                 .addGap(18, 18, 18)
                                 .addGroup(panel1Layout.createParallelGroup()
                                     .addComponent(label7)
-                                    .addComponent(label8, GroupLayout.DEFAULT_SIZE, 52, Short.MAX_VALUE))
+                                    .addComponent(label8, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGap(18, 18, 18)
                                 .addGroup(panel1Layout.createParallelGroup()
-                                    .addComponent(label9, GroupLayout.DEFAULT_SIZE, 106, Short.MAX_VALUE)
+                                    .addComponent(label9, GroupLayout.DEFAULT_SIZE, 103, Short.MAX_VALUE)
                                     .addGroup(panel1Layout.createSequentialGroup()
                                         .addGap(0, 0, Short.MAX_VALUE)
                                         .addComponent(label2, GroupLayout.PREFERRED_SIZE, 49, GroupLayout.PREFERRED_SIZE)))
@@ -330,10 +328,10 @@ textField1.setText("");
                                     .addComponent(label11)
                                     .addComponent(textField1, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE)))
                             .addGroup(GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 186, Short.MAX_VALUE)
+                                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 180, Short.MAX_VALUE)
                                 .addComponent(label5, GroupLayout.PREFERRED_SIZE, 169, GroupLayout.PREFERRED_SIZE)
                                 .addGap(2, 2, 2)))
-                        .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
+                        .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(panel1Layout.createParallelGroup()
                             .addGroup(panel1Layout.createSequentialGroup()
                                 .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
@@ -350,7 +348,10 @@ textField1.setText("");
         contentPane.setLayout(contentPaneLayout);
         contentPaneLayout.setHorizontalGroup(
             contentPaneLayout.createParallelGroup()
-                .addComponent(panel1, GroupLayout.DEFAULT_SIZE, 1013, Short.MAX_VALUE)
+                .addGroup(contentPaneLayout.createSequentialGroup()
+                    .addGap(27, 27, 27)
+                    .addComponent(panel1, GroupLayout.DEFAULT_SIZE, 1013, Short.MAX_VALUE)
+                    .addContainerGap())
         );
         contentPaneLayout.setVerticalGroup(
             contentPaneLayout.createParallelGroup()
@@ -362,7 +363,7 @@ textField1.setText("");
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-    // Generated using JFormDesigner Evaluation license - ryue
+    // Generated using JFormDesigner Evaluation license - ajax
     private JPanel panel1;
     private JLabel label1;
     private JLabel label3;

@@ -1,20 +1,19 @@
 package doctor;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.File;
+import java.io.*;
+
 import com.fazecast.jSerialComm.*;
-import java.io.UnsupportedEncodingException;
+
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Base64;
+import java.util.Calendar;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.s3.AmazonS3Client;
 import com.amazonaws.services.s3.model.ObjectMetadata;
-import com.amazonaws.services.s3.model.PutObjectRequest;
-import com.amazonaws.services.s3.model.PutObjectResult;
 import com.amazonaws.services.s3.model.GetObjectRequest;
 
 
@@ -22,7 +21,7 @@ import com.amazonaws.services.s3.model.GetObjectRequest;
 public class Doctor  {
     private static SecretKeySpec secretKey;
     private static byte[] key;
-    static SerialPort serialPort = SerialPort.getCommPort("COM3");
+    static SerialPort serialPort = SerialPort.getCommPort("COM4");
     static String same = "";
     static Thread threadToInterrupt = null;
     static InputStream inn = null;
@@ -36,7 +35,7 @@ public class Doctor  {
 
     public static class SerialReader implements Runnable {
 
-        String z=null;
+       static String z=null;
         String t = "",first,last,Em,ano,ph;
         int c=1,x;
         InputStream in;
@@ -94,6 +93,11 @@ z=first+last+ano;
 
         }
     }
+
+
+
+
+
 
 
 
@@ -156,6 +160,35 @@ z=first+last+ano;
 
         }
 
+     public static void write1(String med)
+     {
+         String date = new SimpleDateFormat("dd/MM/yyyy").format(Calendar.getInstance().getTime());
+         String w = SerialReader.z + "#" + med + "*" + date;
+         try {
+             File file = new File("log");
+             if(file.exists()) {
+                 FileWriter writer = new FileWriter("log", true);
+                 BufferedWriter bufferedWriter = new BufferedWriter(writer);
+                 bufferedWriter.newLine();
+                 bufferedWriter.write(w);
+                 bufferedWriter.close();}
+             else
+             {
+                 FileWriter writer = new FileWriter("log", true);
+                 BufferedWriter bufferedWriter = new BufferedWriter(writer);
+                 bufferedWriter.write(w);
+                 bufferedWriter.close();
+             }
+
+         }
+         catch (IOException e) {
+             e.printStackTrace();
+         }
+
+
+     }
+
+
 
      public static void call()
      {
@@ -166,6 +199,7 @@ z=first+last+ano;
              String z=null;
              doc.Name(z);
              doc.Re(z);
+
              return ;
 
          }
@@ -201,5 +235,6 @@ z=first+last+ano;
 
 
     }
+
 
 }

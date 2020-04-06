@@ -69,7 +69,7 @@ button1.setEnabled(false);
             public void run()
             {
                 try {
-                    a.setPortDescription("COM3");
+                    a.setPortDescription("COM4");
                     a.openConnection();
                     stop();
                 }

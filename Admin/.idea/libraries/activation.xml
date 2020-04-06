@@ -2,10 +2,13 @@
   <library name="activation">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/activation.jar!/" />
-      <root url="file://$PROJECT_DIR$" />
+      <root url="jar://$PROJECT_DIR$/lib/arduino.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mail-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/itextpdf-5.0.6.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/arduino.jar!/" />
       <root url="file://$PROJECT_DIR$/src" />
     </SOURCES>
   </library>

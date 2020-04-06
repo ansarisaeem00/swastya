@@ -1,0 +1,42 @@
+JFDML JFormDesigner: "6.0.6.2.195" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x}"
+			"$verticalGroup": "par l {comp panel1::t:::x}"
+		} ) {
+			name: "this"
+			"background": sfield java.awt.Color white
+			"title": "Swasthya"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\pathology\\img\\hl.png" )
+			"font": new java.awt.Font( "Dialog", 0, 20 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :p:304:p, comp label1:::p:508:p, space :p:251:p}, seq t {space :::p, comp scrollPane1:::p:1024:p, space :::p}}"
+				"$verticalGroup": "par l {seq l {space :p:12:p, comp label1:::p:83:p, space :p:34:p, comp scrollPane1:::p:872:p, space ::172:x}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "F:\\1P\\pathology\\img\\logo.png" )
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "table1"
+						"font": new java.awt.Font( "Calibri", 0, 24 )
+						"rowHeight": 45
+						"rowMargin": 3
+						"fillsViewportHeight": true
+						"autoResizeMode": 4
+					} )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1065, 1205 )
+		} )
+	}
+}

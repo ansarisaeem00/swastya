@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="mail-1.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Admin/lib/mail-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Admin/lib/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Admin/lib/bcmail-jdk14-1.38.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Admin/lib/bcprov-jdk14-1.38.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

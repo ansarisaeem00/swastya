@@ -24,6 +24,7 @@
 
 #define RST_PIN         9           // Configurable, see typical pin layout above
 #define SS_PIN          10          // Configurable, see typical pin layout above
+#define LED_BUILTIN     8
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);   // Create MFRC522 instance
 
@@ -33,6 +34,7 @@ void setup() {
   SPI.begin();                                                  // Init SPI bus
   mfrc522.PCD_Init();                                              // Init MFRC522 card
  Serial.println(F("Read personal data on a MIFARE PICC:"));    //shows in serial that it is ready to read
+ pinMode(LED_BUILTIN, OUTPUT);
 }
 
 //*****************************************************************************************//
@@ -59,6 +61,7 @@ void loop() {
     return;
   }
 
+  digitalWrite(LED_BUILTIN, HIGH);
   Serial.println(F("**Card Detected:**"));
 
   //-------------------------------------------
@@ -242,6 +245,7 @@ byte buffer8[18];
   }
 
  Serial.println(F("\n**End Reading**\n"));
+digitalWrite(LED_BUILTIN, LOW);
 
   delay(1000); //change value if you want to read cards faster
 
